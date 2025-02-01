@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Clash-Display';
+    src: url('../assets/fonts/ClashDisplay-Variable.ttf') format('truetype');
+    font-weight: 100 900; /* Supports all weights from 100 to 900 */
+}
+
+body{
+    background-color: #181349;
+    body {
+    font-family: 'Clash-Display', sans-serif;
+    }
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+nav{
+    display: flex;
+    list-style: none;
+    gap: 200px;
+    justify-content: space-around;
+    padding: 0%;
+    margin-top: 0px;
+    margin-bottom: 120px;
+    height: 0px;
+
+}
+.nav-links{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    font-family: Clash-Display;
+    font-weight: bold;
+    
+}
+nav a {
+    text-decoration: none !important;
+    color: white;
+    font-size: 16px;
+    /* font-weight: 400; */
+    /* margin-top: 36px; */
+    font-weight: 400;
+}
+.logo{
+    font-family: Clash-Display;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0%;
+    margin-top: -5px;
+}
+span{
+    color: #4BEAF1;
+}
+.nav-btn{
+    font-family: Clash-Display;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #2E42D4 ;
+    border-radius: 50px;
+    border-style: none;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+    margin-top: -120px;
+}
+.button-primery{
+    font-family: Clash-Display;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #2E42D4 ;
+    border-radius: 50px;
+    border-style: none;
+    text-align: center;
+height: 78px;
+width: 356px;
+vertical-align: middle;
+}
+.btn-icon{
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+.intro_arrow{
+    width: 54px;
+    height: 32px;
+}
+.hero{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+font-family: Clash-Display;
+color: white;
+margin-top: -150px;
+/* background: linear-gradient(to bottom, transparent, blue), 
+            linear-gradient(transparent 99%, rgba(255, 255, 255, 0.2) 1%) 0px 0px / 40px 40px, 
+            linear-gradient(90deg, transparent 99%, rgba(255, 255, 255, 0.2) 1%) 0px 0px / 40px 40px; */
+
+            background: 
+    linear-gradient(to bottom, transparent 56%, rgba(40, 58, 186, 0.741)), 
+    linear-gradient(transparent 99%, rgba(255, 255, 255, 0.1) 1%) 0px -50px / 130px 130px, 
+    linear-gradient(90deg, transparent 99%, rgba(255, 255, 255, 0.1) 1%) 0px -50px / 130px 130px;
+
+padding-bottom: 200px;
+padding-top: 200px;
+}
+
+.intro-title {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.86);
+    border-radius: 50px;
+    border-width: 1px;      /* Define the border width */
+    border-style: solid;    /* Define the border style (solid, dashed, etc.) */
+    border-color: rgba(255, 255, 255, 0.247);    /* Define the border color */
+    background-color: #181349c8;
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 16px;
+    /* vertical-align: center; */
+    align-items: center;
+    /* margin: 0px 0px; */
+    /* border-style: dotted 10px white; */
+width: 540px;
+height: 54px;
+text-align: center;
+
+}
+
+.title-heading{
+    font-family: Clash-Display;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    /* width: 1020px; */
+    
+}
+.span-1 .title-heading{
+    color:#4BEAF1 ;
+}
+.button-primery{
+ 
+}
