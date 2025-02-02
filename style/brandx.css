@@ -412,3 +412,56 @@ vertical-align: middle;
     }
   }
   
+  .process-cards{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    vertical-align: center;
+    align-items: center;
+  }
+  .process-cards img {
+    width: 110ps;
+    height: 118px; 
+}
+.process-title{
+    font-family: Clash-Display;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(75, 234, 241, 1);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.process-description{
+    font-family: Clash-Display;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.86);
+    margin-left: 30px;
+
+}
+.card-short{
+    width: 472px;
+}
+
+.process-card-short{
+    display: flex;
+    width: 472px;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Semi-transparent white border */
+    border-radius: 16px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.01); /* Light transparent background */
+    box-sizing: border-box;
+    padding: 20px; /* Optional padding for inner content */
+    margin-bottom: 48px;
+
+}
+.process-card-long{
+    display: flex;
+    width: 680px;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Semi-transparent white border */
+    border-radius: 16px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.01); /* Light transparent background */
+    box-sizing: border-box;
+    padding: 20px; /* Optional padding for inner content */
+    margin-bottom: 48px;
+}
