@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="style/brandx.css">
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // Animation duration (in ms)
+        easing: 'ease-in-out', // Easing function
+        once: true // Animate only once
+      });
+    </script>
+    
     <header class="hero gradient-box">
         <nav>
             <div>
@@ -180,7 +189,17 @@
                 
                 </div>
             </div>
-        </sectjion>
+        </section>
+        <section class="choose">
+            <div class="choose-us">
+                <div><img src="style/images/choose-img.png" alt=""></div>
+                <div>
+                    <h3 class="choose-title">Why Choose Us?</h3>
+                    <p class="choose-description">Choose us for our commitment to innovation, quality, and customer satisfaction. We provide tailored solutions, expert guidance, and a seamless experience from concept to delivery, ensuring your goals are met with precision and creativity<p>
+                    <button class="button-body btn-choose">Get A Free Consultation</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
