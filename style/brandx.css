@@ -143,9 +143,7 @@ text-align: center;
 .span-1 .title-heading{
     color:#4BEAF1 ;
 }
-.button-primery{
- 
-}
+
 .brands{padding: 60px;
     background-color: white;
     margin-top: -30px;
@@ -170,7 +168,7 @@ vertical-align: middle;
     justify-content: center;
     margin-top: 40px;
 }
-.section-service{
+/* .section-service{
     display: block;
     justify-content: center;
     align-items: center;
@@ -181,7 +179,48 @@ vertical-align: middle;
     position: relative;
  background-position: 650px -500px;
     
-}
+} */
+
+.section-service {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url('../style/images/service-bg.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 650px -500px;
+    /* Add padding or any other styles if needed */
+  }
+  
+  /* Adding the animated image using ::before pseudo-element */
+  .section-service::before {
+    content: "";
+    position: absolute;
+    top: 1000px; /* Adjust positioning */
+    left: 1000px; /* Adjust positioning */
+    width: 70%; /* Or set a specific width */
+    height: 70%; /* Or set a specific height */
+    background-image: url('../style/images/service-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    z-index: 10; /* Ensure the image is above other content */
+  
+    /* Bouncing animation */
+    animation: bounce 3s ease-in-out infinite; /* Adjust speed here */
+  }
+  
+  /* Bounce Animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); /* Original position */
+    }
+    50% {
+      transform: translateY(-20px); /* Move up */
+    }
+  }
+  
 
 .category{
     font-family: Clash-Display;
@@ -241,26 +280,135 @@ vertical-align: middle;
 .project-card{
     display: flex;
     justify-content: center;
+    gap: 40px;
     margin: 0 auto;
     padding: 30px;
+    width: 1200px;
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    margin-bottom: 40px;
 }
 .project-title{
     font-family: Clash-Display;
     font-size: 28px;
     font-weight: 600;
-    color: white;
+    color: rgb(255, 255, 255);
 
 }
 .project-description{
     font-family: Clash-Display;
     font-size: 20px;
     font-weight: 400;
-    color:rgba(255, 255, 255, 0.86) ;
-    line-height: 30px;
+    color: rgba(255, 255, 255, 0.64);
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 .tag{
     font-family: Clash-Display;
     font-size: 14px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.86);
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Semi-transparent white border */
+    border-radius: 50px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.01); /* Light transparent background */
+    box-sizing: border;
+    padding: 20px; /* Optional padding for inner content */
+    gap: 200px;
+    margin-bottom: 60px;
 }
+.tags{
+    display: flex;
+/* justify-content: start; */
+    gap: 10px;
+}
+.button-body{
+    font-family: Clash-Display;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color:#2E42D4;
+    border-radius: 50px;
+    border-style: none;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+    margin-top: -120px;
+}
+.description{
+    font-family: Clash-Display;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 40px;
+
+}
+.feature-title{
+    font-family: Clash-Display;
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(75, 234, 241, 1);
+    margin-bottom: 0px;
+}
+.feature-description{
+    font-family: Clash-Display;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+    gap: 40px;
+}
+.feature{
+    display: flex;
+    gap: 40px;
+}
+/* .section-about{
+    background-image: url('../style/images/circle-ring.png');
+    background-repeat: no-repeat;
+    position: relative;
+ background-position: 650px -250px;
+ z-index: 10;
+} */
+
+.section-about {
+    position: relative;
+    padding: 0px; /* Adjust as needed */
+    z-index: 0;
+
+  }
+  
+  .section-about::before {
+    content: "";
+    position: absolute;
+    top: -50px; /* Adjust position */
+    left: 550px; /* Adjust position */
+    width: 100%; /* Or set a specific width for the image */
+    height: 100%; /* Or set a specific height for the image */
+    background-image: url('../style/images/circle-ring.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    z-index: 10; /* Ensure image is on top */
+    
+    /* Animation to make the image bounce up and down */
+    animation: bounce 3s ease-in-out infinite; /* Adjust speed and timing */
+  }
+  
+  /* Bounce Animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); /* Original position */
+    }
+    50% {
+      transform: translateY(-20px); /* Move up */
+    }
+  }
+  
