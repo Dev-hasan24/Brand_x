@@ -43,7 +43,7 @@ nav a {
 .logo{
     font-family: Clash-Display;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 0%;
     margin-top: -5px;
 }
@@ -158,7 +158,8 @@ vertical-align: middle;
 .brand-title{
     font-family: Clash-Display;
     font-size: 24px;
-    color: #333333;
+    font-weight: 500;
+    color: #333333a7;
     text-align: center;
     margin-top: px;
 }
@@ -168,4 +169,98 @@ vertical-align: middle;
     display: flex;
     justify-content: center;
     margin-top: 40px;
+}
+.section-service{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url('../style/images/service-bg.svg');
+    /* background-size: auto; */
+    background-repeat: no-repeat;
+    position: relative;
+ background-position: 650px -500px;
+    
+}
+
+.category{
+    font-family: Clash-Display;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 130px;
+}
+.category-title{
+    font-family: Clash-Display;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    /* border: solid 10px #4BEAF1; */
+    height: 474px;
+    width: 1198px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.service-card, .service-card-web{
+    width: 368px;
+    height: 424px;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Semi-transparent white border */
+    border-radius: 16px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.01); /* Light transparent background */
+    box-sizing: border-box;
+    padding: 30px; /* Optional padding for inner content */
+}
+.service-card-web{
+    margin-top: -60px;
+}
+.service-title{
+    font-family: Clash-Display;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5px;
+}
+.services-description{
+    font-family: Clash-Display;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.64);
+    line-height: 1.8em;
+}
+.project-card{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+.project-title{
+    font-family: Clash-Display;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+
+}
+.project-description{
+    font-family: Clash-Display;
+    font-size: 20px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.86) ;
+    line-height: 30px;
+}
+.tag{
+    font-family: Clash-Display;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.86);
 }
