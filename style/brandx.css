@@ -517,3 +517,61 @@ vertical-align: middle;
 .btn-choose{
     width: 312px;
 }
+.testimonial{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+}
+.testimonial-card{
+    width: 368px;
+    /* height: 424px; */
+padding: 30px;
+border: solid 1px rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+background-color: rgba(255, 255, 255, 0.01);
+margin-bottom: 30px;
+}
+.client-name{
+    font-family: Clash-Display;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.client-role{
+    font-family: Clash-Display;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.86);
+}
+.hr{
+        width: 308px;
+        height: 1px;
+        color: rgba(255, 255, 255, 0.046);
+}
+.client-feedback{
+    font-family: Clash-Display;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 0%;
+}
+.client-info{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin: 0 auto;
+}
+.client-img{
+    height: 64px;
+    width: 64px;
+}
+.testimonial-bg{
+    background-image: url("../style/images/testimonial-bg.png");
+    background-position: top left; /* Position image at the top-left */
+    background-repeat: no-repeat;  /* Prevent image from repeating */
+    position: relative;
+}
