@@ -68,19 +68,26 @@ nav a {
 span{
     color: #4BEAF1;
 }
-.nav-btn{
+.nav-btn {
     font-family: Clash-Display;
     font-size: 18px;
     font-weight: 500;
     color: rgb(255, 255, 255);
-    background-color: #2E42D4 ;
+    background-color: #2E42D4;
     border-radius: 50px;
     border-style: none;
     text-align: center;
     width: 180px;
     height: 60px;
     margin-top: -120px;
+    transition: background-color 0.3s, color 0.3s;
 }
+
+.nav-btn:hover {
+    background-color: #071094;  /* Opposite color */
+    color: #ffffff;  /* Change text color if needed */
+}
+
 .button-primery{
     font-family: Clash-Display;
     font-size: 24px;
@@ -186,18 +193,6 @@ vertical-align: middle;
     justify-content: center;
     margin-top: 40px;
 }
-/* .section-service{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    background-image: url('../style/images/service-bg.svg');
-    /* background-size: auto; */
-    background-repeat: no-repeat;
-    position: relative;
- background-position: 650px -500px;
-    
-} */
 
 .section-service {
     display: block;
@@ -574,4 +569,74 @@ margin-bottom: 30px;
     background-position: top left; /* Position image at the top-left */
     background-repeat: no-repeat;  /* Prevent image from repeating */
     position: relative;
+}
+.newsletter {
+    display: block;                      /* Flexbox for proper alignment */
+    align-items: center;               /* Vertically center content */
+    justify-content: center;           /* Horizontally center content */
+    height: 338px;
+    width: 992px;
+    background-color: #2E42D4;
+    /* background-image: url("../style/images/newsletter-bg.png"); */
+    background-size: 300px 200px;      /* Fixed background image size */
+    background-repeat: no-repeat;      /* Prevent background repetition */
+    background-position: center;       /* Center the background image */
+
+    border-radius: 16px;
+    padding: 70px 104px;
+    margin: 0 auto;
+    box-sizing: border-box;            /* Ensure padding doesn’t overflow */
+}
+.newsletter-title{
+    font-family: Clash-Display;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    width: 784px;
+    text-align: center;
+}
+.newsletter-form{
+    /* background-color: #4BEAF1; */
+    height: 80px;
+    width: 520px;
+    border-radius: 50px;
+    /* display: flex; */
+
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.46);
+
+}
+.newsletter-email{
+    font-family: Clash-Display;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.721);
+    background-color:#d5daff00;
+    border-style: none;
+    padding: 30px;
+}
+.news-btn{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50px;
+    border-style: none;
+    margin-right: 12px;
+    width: 232px;
+    font-family: Clash-Display;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(46, 66, 212, 1);
+
+}
+.newsletter-contents{
+    display: block;
+    justify-content: center;
+    vertical-align: middle;
+}
+.footer{
+    
 }
