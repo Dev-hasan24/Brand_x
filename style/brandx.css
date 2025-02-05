@@ -588,6 +588,9 @@ margin-bottom: 30px;
     height: 64px;
     width: 64px;
 }
+.star{
+    margin-top: 20px;
+}
 .testimonial-bg{
     background-image: url("../style/images/testimonial-bg.png");
     background-position: top left; /* Position image at the top-left */
