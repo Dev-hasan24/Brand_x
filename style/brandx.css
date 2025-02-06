@@ -4,6 +4,7 @@
     font-weight: 100 900; /* Supports all weights from 100 to 900 */
 }
 
+
 body{
     background-color: #181349;
     body {
@@ -371,17 +372,24 @@ vertical-align: middle;
 }
 .feature-title{
     font-family: Clash-Display;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     color: rgba(75, 234, 241, 1);
     margin-bottom: 0px;
     margin-top: 10px;
+    margin-right: 60px;
 }
 .feature-description{
     font-family: Clash-Display;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     color: white;
+    margin-top: 10px;
+}
+.feature-border{
+    border-right: solid #2e41d48c 1px;
+    height: 100px;
+    padding-left: 0px;
 }
 .about{
     display: flex;
@@ -396,27 +404,21 @@ vertical-align: middle;
     gap: 40px;
     background-color:rgba(255, 255, 255, 0.01);
 } */
-.feature { 
-    display: flex;
-    gap: 40px;
-    background: 
-        linear-gradient(to bottom right, rgba(0, 0, 255, 0.56), rgba(0, 0, 255, 0.10)),  /* Gradient border */
-        rgba(255, 255, 255, 0.01);  /* Inner background */
-    background-origin: border-box;
-    background-clip: padding-box, border-box; 
-    border: 1px solid transparent;  /* Necessary for the gradient border effect */
-    border-radius: 16px;            /* Rounded corners */
-    padding: 1px;                  /* Inner spacing */
-    box-sizing: border-box;         /* Keeps padding within the box */
+.feature {
+    width: 568px;
+    /* height: 124px; */
+    border: 1px solid rgba(46, 65, 212, 0.443); /* Semi-transparent white border */
+    border-radius: 16px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.01); /* Light transparent background */
+    box-sizing: border-box;
+    padding: 0px; /* Optional padding for inner content */
 }
-
-/* Optional: Adjust inner content for text fitting */
-.feature > * {
-    flex: 1;
-    min-width: 250px;  /* Adjust as needed for content */
-}
-
 .feature-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+/* .feature-container{
     display: flex;
     justify-content: space-between;
     background-color: #181349;
@@ -424,7 +426,7 @@ vertical-align: middle;
     align-items: center;
     vertical-align: middle;
     border-radius: 13.5px;
-}
+} */
 /* .section-about{
     background-image: url('../style/images/circle-ring.png');
     background-repeat: no-repeat;
@@ -678,6 +680,18 @@ margin-bottom: 30px;
     border-color: rgba(255, 255, 255, 0.46);
 
 }
+.newsletter-form input {
+    border: none; /* Removes the border */
+    outline: none; /* Removes the default focus outline */
+    box-shadow: none; /* Removes any focus box-shadow */
+}
+
+.newsletter-form input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
 .newsletter-email{
     font-family: Clash-Display;
     font-size: 16px;
